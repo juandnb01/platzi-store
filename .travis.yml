@@ -14,6 +14,15 @@ git:
 script: 
   - yarn build
 
+notifications:
+  email:
+    recipients:
+      - juandnb@outlook.es
+      - juanmothy182@gmail.com
+    on_success: always
+    on_failure: always
+
+
 deploy: 
   provider: pages
   skip-cleanup: true

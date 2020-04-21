@@ -23,6 +23,7 @@ notifications:
     on_success: always
     on_failure: always
 
+
 deploy: 
   provider: pages
   skip-cleanup: true

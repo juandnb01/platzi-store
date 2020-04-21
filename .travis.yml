@@ -15,6 +15,7 @@ script:
   - yarn build
 
 notifications:
+  slack: develop-mundo:tT8f98wiztWkpwypwjvlV9bT
   email:
     recipients:
       - juandnb@outlook.es
